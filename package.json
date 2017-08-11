@@ -1,0 +1,39 @@
+{
+  "name": "letou_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"tsc --watch\" next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/es6-promise": "0.0.32",
+    "es6-promise": "^4.1.1",
+    "fetch": "^1.1.0",
+    "immutable": "^3.8.1",
+    "isomorphic-fetch": "^2.2.1",
+    "jquery-param": "^0.2.0",
+    "moment": "^2.18.1",
+    "next": "^3.0.1-beta.20",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "redux-thunk": "^2.2.0",
+    "styled-jsx": "^1.0.10"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.19",
+    "@types/react": "^16.0.0",
+    "@types/react-dom": "^15.5.2",
+    "@types/react-redux": "^4.4.47",
+    "@types/webpack": "^3.0.6",
+    "@types/webpack-env": "^1.13.0",
+    "concurrently": "^3.5.0",
+    "typescript": "^2.4.2"
+  }
+}
