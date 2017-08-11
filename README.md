@@ -1,5 +1,4 @@
-# letou_web react version
-
+# next js base structure
 follow below steps for developing
 1. npm install
 2. npm run dev
